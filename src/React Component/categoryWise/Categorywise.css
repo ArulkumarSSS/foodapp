@@ -1,0 +1,40 @@
+.MainFood{
+    /* background-color: rgb(202, 224, 246); */
+    /* background-image: url('C:/Users/2232688/Downloads/foodImg.jpg');   */
+    display: grid;
+    justify-self: center;
+    justify-items: center;
+justify-content: center;
+flex-wrap: wrap;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    /* row-gap: 1rem; */
+    
+    padding-bottom: 4rem;
+}
+
+    .meal{
+    text-decoration: none;
+    text-decoration-line: none;
+}
+
+.close{
+    display: flex;
+    flex-direction: column;
+    background-image: url('../../../public/Image/Food.jpg');  
+    /* background-position: top; */
+    /* background-size: contain; */
+    position: relative;
+    top: 4rem;
+}
+.detail{
+    padding: 1rem;
+    padding-bottom: 0rem;
+    justify-self: center;
+    justify-items: center;
+    color: aliceblue;
+    /* background-image: url('C:/Users/2232688/Downloads/foodImg.jpg');   */
+    padding-bottom: 2rem;
+    font-weight: 700;
+    font-size: 1.4rem;
+    /* background-color: rgb(202, 224, 246); */
+}

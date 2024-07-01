@@ -1,0 +1,202 @@
+.flex{
+    display: flex;
+}
+/* .top{
+    justify-content: space-between;
+    color: aliceblue;
+    font-size: 1.3rem;
+    .topContent_1{
+        gap: .5rem;
+    .logoHead{
+        align-self: center;
+        
+    }
+    }       
+} */
+.toptoBottom{
+  
+    .back{
+        background-color: rgb(95, 132, 186);
+        opacity:.1;
+        width: 100%;
+        height: 20rem;
+        position: absolute;
+        /* z-index: 10; */
+    }
+    .searchTab{
+        position: relative;
+    }
+    .search{
+        
+    /* padding: .4rem .6rem .6rem; */
+    .searcher{
+        color: rgb(41, 28, 28);
+        transform: translateY(.1rem);
+        font-size: 1rem;
+        border: none;
+        outline: none;
+        &::placeholder{ 
+            font-weight: 500;
+            opacity: .5;
+            font-size: 1rem;
+            color: rgb(19, 19, 7);
+        }
+        
+    }}
+    .intro{
+        color: black;
+        position: relative;
+        font-weight:1000;
+        font-size: 1.7rem;
+        
+    }
+    .intro1{
+        color: rgb(0, 0, 0);
+        position: relative;
+        font-size: 1.5rem;
+        font-weight: 500;
+        }
+}
+.centerize{
+    width: 100%;
+    height:32rem;
+    display: flex;
+    background-color:rgb(147, 140, 140);
+position: absolute;
+}
+
+.sl-bubble1{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+   
+width: 100rem;
+}
+.card{
+    background-color: rgb(48, 49, 50);
+    color: white;
+    display: flex;
+    width: 17rem;
+    flex-direction: column;
+    /* justify-content: space-around; */
+    align-items: center;
+    border-radius: 1rem;
+    box-shadow: 2px 2px 5px black;
+    &:hover{
+        box-shadow: .5rem .5rem .3rem rgba(0, 0, 0, 0.26);
+        background:rgb(60, 63, 69);
+        transition: .3s ease;
+        /* transform: scale(1.001); */
+    }
+    .mealImg{
+        display: flex;
+        flex-direction: column;
+        padding: .5rem;
+        z-index: 1;
+        font-size: 1.1rem;
+    color: rgb(255, 255, 255);
+        
+    }
+    .aaa{
+        position: relative;
+        z-index: 1;
+        width:17rem;
+        height: 10rem;
+        border-radius: 1rem 1rem 0rem 0rem;
+    
+    }
+}
+.bottomControl{
+    position: relative;
+    top: 4.4rem;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.searchresultcon{
+    padding: 1rem;
+    font-weight: 700;
+    font-size: x-large;
+}
+
+.categoryhead{
+    padding: 1rem;
+    font-weight: bold;
+    font-size:x-large;
+    text-align:center;
+    color: aliceblue;
+}
+
+h2{
+    padding-left: 2rem;
+}
+.bottom{
+    color: white;
+    background-repeat: repeat;
+    background-size: cover;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    background-image:url('../../../public/Image/bgCategory.jpg')  ;
+    background-repeat: repeat; 
+    background-size: cover;
+    /* background-origin: border-box; */
+    /* justify-content: space-evenly; */
+   
+}
+.hove{
+    display: flex;
+    flex-wrap: wrap;
+    flex-shrink: 3;
+    
+    .hovercontent{
+        display: none;
+    }
+    
+    
+    &:hover{
+        color: rgb(103, 93, 93);
+        font-weight: 900;
+        /* background-color: aliceblue; */
+        transition: .3s ease;
+        z-index: 348739803;
+        opacity: 1;
+        .aaa{
+            /* display: none; */
+            opacity: .2 ;
+          position: relative;
+        }
+        .mealImg{
+            display: flex;
+            flex-wrap: nowrap;
+            font-size: 1rem;
+            color: rgb(40, 6, 6);
+            font-weight: 700;
+            opacity: 1;
+            position: relative;
+        }
+        .hovercontent{
+            border-radius: 1rem;
+            background-color: white;
+            opacity: .5;
+            z-index: 100;
+            position: absolute;
+            width: 100%;
+            height: 100%;
+            display:inline;
+            color: rgb(0, 0, 0);
+            justify-content: center;
+            align-self: center;
+            display: flex;
+            flex-direction: column;
+            .veg{
+                display: flex;
+                width: 100%;
+                justify-content: center;
+            align-items: center;
+            }
+            
+        }
+    } 
+}
